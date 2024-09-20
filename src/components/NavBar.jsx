@@ -54,7 +54,7 @@ const NavBar = () => {
 
         
 
-          <div className='absolute lg:hidden top-0 right-0 w-[60%] h-screen bg-darkGrey flex flex-col translate-x-[500px] md:translate-x-[900px]   pt-4 ' ref={navRef}>
+          <div className='absolute lg:hidden top-0 right-0 w-[60%] h-screen bg-darkGrey flex flex-col translate-x-[500px] md:translate-x-[900px] z-20  pt-4 ' ref={navRef}>
 
             <button className='self-end  mr-[50px] mt-6 text-2xl md:text-3xl' onClick={toggleMenu}>X</button>
 
