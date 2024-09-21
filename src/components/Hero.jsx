@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import NavBar from "./NavBar";
 import gsap from "gsap";
 import { useRef } from "react";
+import Headroom from "react-headroom";
 
 const Hero = () => {
   
@@ -45,11 +46,15 @@ const Hero = () => {
   const heroButtonRef = useRef(null);
   return (
     <div className="hero">
-      <NavBar />
+
+      
+
+        <NavBar />
+
 
       <div
         ref={heroContentRef}
-        className="flex flex-col  items-center justify-center mt-32"
+        className="flex flex-col  items-center justify-center mt-20 md:mt-32"
       >
         <h1 className="hero-heading">
           Craft your story <br /> with us{" "}

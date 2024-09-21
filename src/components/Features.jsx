@@ -21,7 +21,7 @@ const Features = () => {
             y: 0,
             duration: 1,
             ease: "power2.out",
-            stagger: 0.7,
+            stagger: 0.5,
             scrollTrigger: {
                 trigger: featureRef.current.children,
                 start: "top bottom",

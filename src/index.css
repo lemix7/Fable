@@ -13,16 +13,16 @@
     font-family: 'Space Grotesk', sans-serif;
   }
   .nav-links{
-    @apply hover:bg-offWhite hover:text-darkGrey p-2 rounded-md transition-all ease-in-out duration-500 rounded-full py-2 px-4
+    @apply hover:bg-offWhite hover:text-darkGrey p-2 transition-all ease-in-out duration-500 rounded-full py-2 px-4
   }
   .nav-container{
     @apply grotesk text-sm hidden lg:flex lg:text-xl lg:capitalize lg:gap-6
   }
   .hero{
-    @apply w-full h-screen bg-offWhite px-[50px] lg:px-[100px] bg-[url("/src/assets/Hero.jpg")] bg-cover bg-center bg-no-repeat 
+    @apply w-full h-screen bg-offWhite bg-[url("/src/assets/Hero.jpg")] bg-cover bg-center bg-no-repeat  
   }
   .hero-btn{
-    @apply grotesk text-xl md:text-2xl capitalize text-offWhite bg-darkGrey px-8 py-4 rounded-full mt-12 hover:bg-offWhite hover:text-darkGrey transition-all ease-in-out duration-500
+    @apply grotesk text-xl md:text-2xl capitalize text-offWhite bg-darkGrey px-8 py-4 rounded-full my-12 hover:bg-offWhite hover:text-darkGrey transition-all ease-in-out duration-500 
   }
   .hero-heading{
     @apply playfair text-8xl md:text-9xl lg:text-[150px] text-center 
