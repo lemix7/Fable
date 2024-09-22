@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import { useEffect } from 'react'
 import Lenis from 'lenis';
+import Testimonials from './components/Testimonials';
+import Cta from './components/Cta';
 function App() {
 
   useEffect(() => {
@@ -28,8 +30,8 @@ function App() {
     <Hero/>
     
     <Features/> 
-    Testimonials 
-    CTA 
+    <Testimonials/> 
+    <Cta/> 
     Footer 
 
 

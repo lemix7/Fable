@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import NavBar from "./NavBar";
 import gsap from "gsap";
 import { useRef } from "react";
-import Headroom from "react-headroom";
+
 
 const Hero = () => {
   
