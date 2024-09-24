@@ -1,6 +1,7 @@
 # Fable 🏺
 
-Fable is an e-commerce pottery landing page that showcases a stunning collection of pottery and its features. This project is built using modern web technologies to create an engaging and interactive user experience.
+Fable is an e-commerce pottery landing page that showcases a stunning collection of pottery and its features. This project is built using modern web technologies to create an engaging and interactive user experience. <br/><br/>
+![image](https://github.com/user-attachments/assets/8e963cde-b139-4dd0-ae93-1c079efa954e) <br/>
 
 ## Technologies Used 🛠️
 
