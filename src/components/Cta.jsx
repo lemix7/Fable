@@ -1,10 +1,37 @@
+import { useGSAP } from '@gsap/react';
 import CtaImg from '../assets/cta.png'
+import { useRef } from 'react'
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 const Cta = () => {
+  const ctaRef = useRef(null);
+
+  useGSAP(() => {
+    gsap.fromTo(ctaRef.current.children, {
+      opacity: 0,
+      y:20
+  }, {
+      opacity: 1,
+      y: 0,
+      duration: 0.5,
+      ease: "power2.out",
+      scrollTrigger: {
+          trigger: ctaRef.current.children,
+          start: "top bottom",
+          end: "bottom top",
+          toggleActions: "play none none reverse"
+      }
+  });
+  },[])
+
   return (
-    <div className='w-full flex flex-col items-center justify-center md:h-screen  gap-6 py-11 md:gap-[100px] ' style={{backgroundImage: `url(${CtaImg})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
-        <h1 className='playfair text-[60px] md:text-[100px] lg:text-[170px] text-center'>Ready to craft</h1>
-        <button className='grotesk   bg-darkGrey rounded-full py-2 px-4 hover:bg-offWhite hover:text-darkGrey transition-all ease-in-out duration-500 md:text-2xl md:py-4 md:px-8 lg'>Get Started</button>
+    <div className='cta' style={{backgroundImage: `url(${CtaImg})`, backgroundSize: 'cover', backgroundPosition: 'center'}} ref={ctaRef}>
+
+        <h1 className='cta-heading'>Ready to craft</h1>
+        <button className='cta-btn'>Get Started</button>
+
     </div>
   )
 }

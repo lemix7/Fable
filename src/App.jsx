@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import Lenis from 'lenis';
 import Testimonials from './components/Testimonials';
 import Cta from './components/Cta';
+import Footer from './components/Footer';
 function App() {
 
   useEffect(() => {
@@ -32,7 +33,7 @@ function App() {
     <Features/> 
     <Testimonials/> 
     <Cta/> 
-    Footer 
+    <Footer/> 
 
 
    </div>

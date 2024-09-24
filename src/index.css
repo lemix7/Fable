@@ -27,4 +27,22 @@
   .hero-heading{
     @apply playfair text-8xl md:text-9xl lg:text-[150px] text-center 
   }
+  .cta{
+    @apply w-full flex flex-col items-center justify-center md:h-screen  gap-6 py-11 md:gap-[100px] 
+  }
+  .cta-heading{
+    @apply playfair text-[60px] md:text-[100px] lg:text-[170px] text-center
+  }
+  .cta-btn{
+    @apply grotesk   bg-darkGrey rounded-full py-2 px-4 hover:bg-offWhite hover:text-darkGrey transition-all ease-in-out duration-500 md:text-2xl md:py-4 md:px-8 
+  }
+  .footer{
+    @apply w-full h-[500px]  bg-darkGrey flex pt-7 md:pt-9 lg:pt-11 px-4 md:px-8 lg:px-11 flex-col items-center gap-9 relative md:flex-row md:items-start md:h-[500px] lg:h-[670px] lg:justify-between
+  }
+  .footer-links{
+    @apply text-lg text-gray-300 hover:text-gray-300 transition-all duration-300 cursor-pointer capitalize
+  }
+  .fable-footer{
+    @apply text-9xl md:text-[200px] lg:text-[300px] playfair tracking-[12px] md:tracking-[50px] lg:tracking-[70px] text-offWhite px-4 absolute bottom-0 left-1/2 transform -translate-x-1/2
+  }
 }
