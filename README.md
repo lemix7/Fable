@@ -18,8 +18,7 @@ Fable is an e-commerce pottery landing page that showcases a stunning collection
 - Intuitive and visually appealing user interface
 - Dynamic header behavior using Headroom.js
 
-## Bugs 🐞
-The lenis library  seems not to work on chrome browser so no smooth scrolling on chrome and the animations are not smooth . so I recommend running the project on either safari , firefox or brave  browser for better experience <br/> <br/>
+
 ## Try the project
 To run this project in your local enviroment 
 
