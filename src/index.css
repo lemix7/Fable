@@ -5,6 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 @layer components{
   .playfair{
     font-family: 'Playfair Display', serif;
@@ -43,6 +46,6 @@
     @apply text-lg text-gray-300 hover:text-gray-300 transition-all duration-300 cursor-pointer capitalize
   }
   .fable-footer{
-    @apply text-9xl md:text-[200px] lg:text-[300px] playfair tracking-[12px] md:tracking-[50px] lg:tracking-[70px] text-offWhite px-4 absolute bottom-0 left-1/2 transform -translate-x-1/2
+    @apply text-9xl md:text-[200px] lg:text-[300px] playfair tracking-[12px] md:tracking-[50px] lg:tracking-[70px] text-offWhite px-4 absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center
   }
 }
