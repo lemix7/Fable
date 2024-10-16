@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
 
 @tailwind base;
 @tailwind components;
@@ -22,7 +25,7 @@
     @apply grotesk text-sm hidden lg:flex lg:text-xl lg:capitalize lg:gap-6
   }
   .hero{
-    @apply w-full h-screen bg-offWhite bg-[url("/src/assets/Hero.jpg")] bg-cover bg-center bg-no-repeat  
+    @apply w-full h-screen bg-[url("/src/assets/HeroImg.webp")]  bg-cover bg-center bg-no-repeat  
   }
   .hero-btn{
     @apply grotesk text-xl md:text-2xl capitalize text-offWhite bg-darkGrey px-8 py-4 rounded-full my-12 hover:bg-offWhite hover:text-darkGrey transition-all ease-in-out duration-500 

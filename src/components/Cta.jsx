@@ -1,5 +1,5 @@
 import { useGSAP } from '@gsap/react';
-import CtaImg from '../assets/cta.png'
+import CtaImg from '../assets/CtaImg.webp'
 import { useRef } from 'react'
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

@@ -1,8 +1,9 @@
 import { useRef } from 'react'
-import TestiBg from '../assets/testi.jpg'
+import TestiBg from '../assets/testi.webp'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 
 gsap.registerPlugin(ScrollTrigger)
 

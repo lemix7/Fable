@@ -1,7 +1,7 @@
 import FeatureCard from './FeatureCard'
-import FeatureImg1 from '../assets/White ceramic vase lot photo.jpg'
-import FeatureImg2 from '../assets/white ceramic.jpg'
-import FeatureImg3 from '../assets/White ceramic vase photo.jpg'
+import FeatureImg1 from '../assets/White ceramic vase lot.webp'
+import FeatureImg2 from '../assets/white ceramic.webp'
+import FeatureImg3 from '../assets/White ceramic vase photo.webp'
 import { useRef, useEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
